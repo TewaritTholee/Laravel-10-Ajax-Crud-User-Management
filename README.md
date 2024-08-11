@@ -64,3 +64,44 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+# Laravel 10 Ajax CRUD User Management
+
+โปรเจกต์นี้เป็นระบบจัดการผู้ใช้ (User Management) โดยใช้ Laravel 10 และ Ajax สำหรับการสร้าง อ่าน แก้ไข และลบ (CRUD) ข้อมูลผู้ใช้ผ่านอินเทอร์เฟซที่ทันสมัยและสะดวกสบาย
+
+## คุณสมบัติ
+
+- จัดการข้อมูลผู้ใช้ เช่น ชื่อ, อีเมล, รหัสผ่าน
+- ใช้ Ajax สำหรับการทำงาน CRUD เพื่อให้ประสบการณ์ใช้งานที่รวดเร็วและไม่ต้องโหลดหน้าใหม่
+- ระบบตรวจสอบข้อมูล (Validation) เพื่อความถูกต้องของข้อมูล
+- ใช้ Bootstrap สำหรับการออกแบบหน้าตา UI
+- มีระบบแจ้งเตือนผลการทำงาน (Success/Error Notifications)
+
+## การเริ่มต้นใช้งาน
+
+### ความต้องการเบื้องต้น
+
+ก่อนเริ่มต้นใช้งาน คุณต้องติดตั้งสิ่งต่อไปนี้:
+
+- PHP >= 8.0
+- Composer
+- MySQL หรือ MariaDB
+- Node.js และ npm
+
+### การติดตั้ง
+
+1. Clone โปรเจกต์นี้:
+
+   ```bash
+   git clone https://github.com/TewaritTholee/Laravel-10-Ajax-Crud-User-Management.git
+
+
+
+   cd Laravel-10-Ajax-Crud-User-Management
+
+   composer install
+
+   php artisan key:generate
